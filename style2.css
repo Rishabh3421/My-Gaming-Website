@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #gameplay{
+    display: flex;
+    align-items: center;
+    background: whitesmoke;
+    justify-content: center;
+  }
+  #game-iframe {
+    width: 80%;
+    height: 80vh;
+    border: 0;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    #game-iframe {
+      width: 95%; 
+    }
+}
